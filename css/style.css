@@ -142,11 +142,7 @@
     margin-left: 40px;
     margin-top: 10px;
 }
-/* .cup1{
-    padding-top: 50px;
-    padding-left: 110px;
-    
-} */
+
 
 .cate2{
     height: 430px;
@@ -308,7 +304,11 @@
 
  /* end of the HOME page  */
 
- /* start the Gallary */
+
+
+
+ /* start the Gallery */
+
  .gallery{
     width: 1200px;
     height: 400px;
@@ -351,7 +351,7 @@
  }
  .heading{
      width: 1200px;
-     height: 200px;
+     height: 150px;
      margin: auto;
      /* border: solid 1px black; */
      background-color:rgba(216, 187, 152, 0.986);
@@ -359,7 +359,7 @@
  .heading_img{
     float: left;
     width:500px;
-    height:200px;
+    height:150px;
     /* border: solid 1px black; */
  }
 .heading_img img{
@@ -368,7 +368,7 @@
  .gall_heading{
      float: left;
      width: 690px;
-     height: 140px;
+     height: 100px;
      padding-top: 60px;
      font-size: 30px;
      color:hsl(12, 69%, 26%);
@@ -442,7 +442,7 @@
     padding: 20px 10px;
 }
 
-           /* end galler works */
+           /* end gallery works */
 
            /* start about us */
 .ab_banner{
@@ -575,7 +575,7 @@
 
 /* start contact us */
 .banner_contact{
-    height: 600px;
+    height: 500px;
     width: 1200px;
     margin: auto;
     background-repeat: no-repeat;
@@ -593,30 +593,34 @@
 }
 .contact{
     margin: auto;
-    height: 800px;
+    height: 700px;
     width: 1200px;
     background-color: beige;
-    border: solid 1px black;
+    /* border: solid 1px black; */
     background-repeat: no-repeat;
     background-image: url(../img/contact6.png);
     background-position: bottom;
     background-size: 180%;
 }
+
+
 .con1{
+    float: left;
     height:500px;
     width: 600px;
     background: rgb(238, 214, 171);
     border:solid 1px white;
-    margin-top:35px;
-    margin-left: 80px;
+    margin-top: -160px;
+    margin-left: 180px;
 }
 .con_form{
     width: 400px;
     padding-left: 35px;
 }
-.con1 h1 {
+.con1 h3 {
     padding-left: 30px;
     padding-top: 25px;
+    text-shadow: 2px 2px 3px white; 
 }
 .con_name{
     border: none;
@@ -626,8 +630,35 @@
     background-color: rgb(238, 214, 171);
 
 }
+.message{
+    margin-left: 25px;
+    border: none;
+    background-color: rgb(238, 214, 171);
+}
+.con_butt{
+    margin-left: 30px;
+    background-color: rgb(99, 49, 9);
+    padding: 8px 20px;
+    color: aliceblue;
+    border-radius: 25px;
+    text-shadow: 1px 0px 5px white;
+    cursor: pointer;
+}
 
-
-
+.contact2{
+    float: left;
+    height:380px;
+    width: 270px;
+    background-color: rgb(126, 73, 9);
+    /* border: solid 1px black; */
+    padding-left: 20px;
+    color: antiquewhite;
+    margin-left: -90px;
+    margin-top: 62px;
+}
+.contact2 img {
+    padding-left: 15px;
+    padding-top: 30px;
+}
 
 /* end of contact */
