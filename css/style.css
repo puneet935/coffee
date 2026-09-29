@@ -77,9 +77,9 @@
     padding: 15px;
     height: 42px;
     float: left;
+    cursor: pointer;
     /* border : solid 1px black; */
     text-align: center;
-    cursor: pointer;
     width: 75px;
     padding-top: 20px;
 }
